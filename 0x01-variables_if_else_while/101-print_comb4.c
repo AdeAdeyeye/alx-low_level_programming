@@ -3,7 +3,6 @@
  * main-progrtam entry point
  * Return:0 success, non zero fail
  */
-
 int main(void)
 {
 	int m, i, j;
@@ -20,7 +19,7 @@ int main(void)
 					putchar(j);
 					putchar(m);
 					if (i == '7' && j == '8' && m == '9')
-					{	
+					{
 						break;
 					}
 					else
@@ -33,5 +32,5 @@ int main(void)
 		}
 	}
 	putchar ('\n');
-				return (0);
+	return (0);
 }
