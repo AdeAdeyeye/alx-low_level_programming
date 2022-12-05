@@ -1,3 +1,8 @@
+/*
+ * File: 0-read_textfile.c
+ * Auth: Adeyeye.
+ */
+
 #include "main.h"
 #include <stdlib.h>
 
@@ -6,6 +11,7 @@
  * @filename: A pointer to the name of the file.
  * @letters: The number of letters the
  * function should read and print.
+ *
  * Return: If the function fails or filename is NULL - 0.
  * O/w - the actual number of bytes the function can read and print.
  */
